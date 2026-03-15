@@ -1,5 +1,5 @@
 import app from "./src/app.js";
-import config from "./config";
+import config from "./src/config/config.js";
 import connectDB from "./src/config/database.js";
 
 const { PORT } = config;
